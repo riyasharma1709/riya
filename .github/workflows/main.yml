@@ -1,0 +1,20 @@
+name:my first github action
+    on:
+       push:
+           branches:main
+
+    jobs:
+        buids:
+          runs-on:Ubantulatest
+
+    steps:
+         name:echo "hello"
+         uses:print "hello"
+
+          name:echo "print current working Directories"
+          uses:pwd
+      
+
+    
+          
+           
